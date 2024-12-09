@@ -1,0 +1,24 @@
+{
+    "name": "RAG application backend",
+    "version": "1.0.0",
+    "description": "RAG application backend using Couchbase and OpenAI",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "axios": "^1.7.9",
+        "cors": "^2.8.5",
+        "couchbase": "^4.4.4",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "openai": "^4.76.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.7"
+    },
+    "author": "Ben Greenberg - hummusonrails.com",
+    "license": "MIT"
+}
